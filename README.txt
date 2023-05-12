@@ -5,6 +5,7 @@ sh install-docker.sh
 # install docker and run a sample container 
 wget https://raw.githubusercontent.com/jaibwtl/automation/main/splunk-install-docker.sh
 sh splunk-install-docker.sh
+#wait for 2-3 min. 
 #URL: http://PublicIP:8000 
 #User: admin
 #Password: Alpha#05082023
