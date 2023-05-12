@@ -8,6 +8,6 @@ sudo apt-get install docker-ce docker-ce-cli containerd.io docker-buildx-plugin 
 sudo docker run  -p 8000:8000 -e "SPLUNK_START_ARGS=--accept-license" -e "SPLUNK_PASSWORD=Alpha#05082023" -d --name splunk splunk/splunk:latest
 sudo docker ps
 
-#URL: http://PublicIP:8000 eg. http://18.234.150.236:8000/
+#URL: http://PublicIP:8000 
 #User: admin
 #Password: Alpha#05082023
